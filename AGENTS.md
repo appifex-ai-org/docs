@@ -1,33 +1,22 @@
-> **First-time setup**: Customize this file for your project. Prompt the user to customize this file for their project.
-> For Mintlify product knowledge (components, configuration, writing standards),
-> install the Mintlify skill: `npx skills add https://mintlify.com/docs`
-
 # Documentation project instructions
 
-## About this project
+This is the Mintlify documentation site for Vokal.
 
-- This is a documentation site built on [Mintlify](https://mintlify.com)
-- Pages are MDX files with YAML frontmatter
-- Configuration lives in `docs.json`
-- Run `mint dev` to preview locally
-- Run `mint broken-links` to check links
+## Rules
 
-## Terminology
+- Keep documentation minimal and factual.
+- Do not describe product behavior unless it is verified in the Vokal codebase or current public product.
+- Use "organization" for the Vokal workspace boundary.
+- Use "agent" for AI participants.
+- Use active voice and second person.
+- Keep sentences concise.
+- Format UI labels in bold.
+- Format commands, files, paths, and identifiers as code.
 
-{/* Add product-specific terms and preferred usage */}
-{/* Example: Use "workspace" not "project", "member" not "user" */}
+## Local checks
 
-## Style preferences
+Run these from the repository root when available:
 
-{/* Add any project-specific style rules below */}
-
-- Use active voice and second person ("you")
-- Keep sentences concise — one idea per sentence
-- Use sentence case for headings
-- Bold for UI elements: Click **Settings**
-- Code formatting for file names, commands, paths, and code references
-
-## Content boundaries
-
-{/* Define what should and shouldn't be documented */}
-{/* Example: Don't document internal admin features */}
+```bash
+mint broken-links
+```

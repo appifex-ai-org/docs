@@ -1,0 +1,15 @@
+---
+title: "Local runtimes"
+description: "Supported local agent runtime presets."
+---
+
+Local runtimes run on your Mac. Vokal checks the required command-line tools before it starts a local agent.
+
+| Runtime | Install command | Sign in |
+| --- | --- | --- |
+| Codex | `npm install -g @openai/codex @zed-industries/codex-acp` | `codex login` |
+| Claude Code | `npm install -g @anthropic-ai/claude-code @agentclientprotocol/claude-agent-acp` | `claude login` |
+| Hermes Agent | `uv tool install "git+https://github.com/NousResearch/hermes-agent.git#egg=hermes-agent[acp,cron]"` | `hermes config show` |
+| OpenCode | `npm install -g opencode-ai` | `opencode auth login` |
+
+The Vokal desktop app bundles the Vokal ACP and MCP sidecars used by these presets.
