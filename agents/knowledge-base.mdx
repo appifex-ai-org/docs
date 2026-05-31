@@ -14,7 +14,7 @@ Open **Knowledge Base** from the app navigation.
 The landing view has two tabs:
 
 - **Graph:** a visual map of confirmed knowledge nodes and relationships.
-- **Nodes:** a searchable list of the same nodes, grouped by type.
+- **List:** an inspectable list of confirmed nodes.
 
 Click a graph node or node row to inspect it. The node detail shows the node type, status, confidence, summary, and confirmed relations. If the node is backed by an article, use **Open article** to open the source article.
 
@@ -42,7 +42,7 @@ When an article is open, the right panel shows related graph context for that ar
 
 - **Graph badges:** quick labels derived from confirmed graph edges.
 - **Related knowledge:** confirmed nodes and edges connected to the article.
-- **Rollout health:** counts for orphan nodes, stale sources, low-confidence edges, review backlog, and extraction jobs.
+- **Rollout health:** counts for orphan nodes, stale sources, low-confidence edges, and review backlog.
 - **Review queue:** proposed graph items waiting for confirmation, rejection, or escalation.
 
-**Run extraction** queues graph extraction for the current article. It is not an agent chat turn. Vokal reads the article and proposes nodes and relationships for the Knowledge Base graph. Proposed items can appear in the review queue before they become confirmed graph context.
+**Run extraction** starts graph extraction for the current article when graph extraction is available. It is not an agent chat turn. Vokal reads the article and proposes nodes and relationships for the Knowledge Base graph. Proposed items can appear in the review queue before they become confirmed graph context. If extraction cannot start, Vokal shows an error in the app.
