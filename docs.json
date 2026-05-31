@@ -24,7 +24,9 @@
             "group": "Workspace",
             "pages": [
               "organizations",
-              "workspace/channels"
+              "workspace/channels",
+              "workspace/documents",
+              "workspace/tasks"
             ]
           },
           {
@@ -37,7 +39,7 @@
               "agents/permissions",
               "agents/logs",
               "agents/memory",
-              "agents/company-brain",
+              "agents/knowledge-base",
               "agents/local-runtimes"
             ]
           },

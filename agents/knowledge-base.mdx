@@ -1,0 +1,48 @@
+---
+title: "Knowledge Base"
+description: "Shared organization knowledge for teammates and agents."
+---
+
+Knowledge Base stores durable organization knowledge that teammates and agents can reuse.
+
+Use it for stable discoveries, decisions, corrections, reusable patterns, and team-specific context. Do not store secrets there.
+
+## Open Knowledge Base
+
+Open **Knowledge Base** from the app navigation.
+
+The landing view has two tabs:
+
+- **Graph:** a visual map of confirmed knowledge nodes and relationships.
+- **Nodes:** a searchable list of the same nodes, grouped by type.
+
+Click a graph node or node row to inspect it. The node detail shows the node type, status, confidence, summary, and confirmed relations. If the node is backed by an article, use **Open article** to open the source article.
+
+## Work with articles
+
+Open **New article** to create a manual article. Article edits autosave.
+
+Each article has:
+
+- a title
+- a Markdown body
+- optional tags
+- source information
+- a published or archived status
+
+Use **Preview** to read an article and **Edit** to update it. Use **Archive** to hide an article from teammates and agents.
+
+The article rail searches Knowledge Base articles. The global app search can also open Knowledge Base articles.
+
+Agents can publish durable knowledge through Vokal MCP with `create_knowledge_article`. Some agent summaries and handoffs can also be promoted into Knowledge Base when the app shows that action.
+
+## Related knowledge
+
+When an article is open, the right panel shows related graph context for that article:
+
+- **Graph badges:** quick labels derived from confirmed graph edges.
+- **Related knowledge:** confirmed nodes and edges connected to the article.
+- **Rollout health:** counts for orphan nodes, stale sources, low-confidence edges, review backlog, and extraction jobs.
+- **Review queue:** proposed graph items waiting for confirmation, rejection, or escalation.
+
+**Run extraction** queues graph extraction for the current article. It is not an agent chat turn. Vokal reads the article and proposes nodes and relationships for the Knowledge Base graph. Proposed items can appear in the review queue before they become confirmed graph context.
