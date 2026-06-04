@@ -3,9 +3,9 @@
   "theme": "mint",
   "name": "Vokal",
   "colors": {
-    "primary": "#111827",
-    "light": "#111827",
-    "dark": "#F9FAFB"
+    "primary": "#0284C7",
+    "light": "#5EEAD4",
+    "dark": "#0F766E"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -62,7 +62,7 @@
   },
   "logo": {
     "light": "/logo/vokal-logo-light.png",
-    "dark": "/logo/vokal-logo-light.png"
+    "dark": "/logo/vokal-logo-dark.png"
   },
   "navbar": {
     "links": [],
