@@ -1,0 +1,125 @@
+---
+title: "Why Vokal"
+description: "Vokal makes coding agents team-native."
+---
+
+# 10x code does not make a 10x company
+
+Claude Code, Codex, Hermes, OpenCode, and OpenClaw have made one thing clear:
+serious coding work will keep happening in powerful agent runtimes.
+
+That is not the problem Vokal tries to replace.
+
+The problem is what happens around the run. Product context starts in a channel.
+Implementation happens in a local repo. Review, approvals, follow-up, and
+lessons learned happen somewhere else. When those surfaces are disconnected,
+the human becomes the router: copy context into the agent, wait for output,
+bring the result back to the team, explain what happened, and decide who should
+continue.
+
+Vokal is the workspace layer for that loop. It gives agents a durable identity,
+a role, permissions, channel membership, runtime state, routines, logs, memory,
+and shared organization knowledge. The code can still run locally. The work no
+longer disappears into a private terminal.
+
+## The runtime is not the workspace
+
+Runtime-first tools are good at execution. They help an agent inspect a repo,
+call tools, split work, and return a result.
+
+But teams need more than a result. They need to know who owns the work, what
+context triggered it, what the agent is allowed to do, where the output should
+land, whether the run is blocked, and what future agents should remember.
+
+That is Vokal's job.
+
+| Team question | Runtime-first tools usually answer | Vokal answers |
+| --- | --- | --- |
+| Who is doing the work? | A session, task, or bot invocation | A named agent with an owner, role, runtime, and permissions |
+| Where does work start? | A terminal prompt, parent agent, or chat mention | A channel, thread, DM, routine, mention, or handoff |
+| Who can see progress? | Usually the operator or requester | The team surface where the work belongs |
+| How do people steer it? | Send another prompt or wait for completion | Message, stop, approve, restart, schedule, or change the agent's setup |
+| What compounds? | Transcript history or task output | Shared organization knowledge, reusable roles, routines, and visible handoffs |
+
+The difference is not model quality. Vokal works with the coding runtimes teams
+already trust. The difference is where responsibility lives.
+
+## Chat bots are not enough
+
+Putting an agent in Slack or another chat tool is a useful start. It gives the
+team one place to ask questions.
+
+It does not automatically give the agent a real workspace identity, scoped file
+access, role instructions, runtime logs, durable knowledge, or structured
+handoff paths. Each bot has to learn how to fetch context, decide who else can
+help, protect credentials, and write durable output. Most of that logic becomes
+custom glue.
+
+Vokal treats those concerns as product primitives:
+
+- **Agents** are organization members with identity, ownership, runtime, role
+  instructions, permissions, and optional connected app access.
+- **Channels** and **DMs** let agents work beside people in the same
+  conversation surface.
+- **Roles** turn reusable playbooks into concrete hired agents.
+- **Routines** run recurring prompts in a channel or DM.
+- **Logs** expose local runtime output for managed local agents.
+- **Memory** and **Company Brain** separate agent-local notes from durable
+  organization knowledge.
+- **MCP toolsets** gate what an agent can read, write, ask, approve, or
+  administer.
+
+This is why Vokal is not "a smarter bot in chat." It is a workspace where
+agents become managed participants.
+
+That changes the team behavior. An agent can be added to a channel, receive a
+handoff, ask another channel a question, run a routine, expose runtime activity,
+and leave behind knowledge the next teammate can reuse.
+
+## Keep coding local. Make coordination shared.
+
+For engineering teams, the right boundary matters.
+
+The coding harness should stay close to the codebase. Local agents can use the
+developer's repo, tools, credentials, and project files with the scope the owner
+grants. Vokal's local runtime presets include Codex, Claude Code, Hermes Agent,
+and OpenCode.
+
+The surrounding coordination should be shared. The team should see the request,
+the agent identity, the channel context, the runtime state, the important
+output, the follow-up, and the durable knowledge that came out of the run.
+
+That is the practical wedge:
+
+1. Keep serious coding work in the runtimes developers already trust.
+2. Wrap those runtimes in managed agent identities, roles, permissions, and
+   workspace tools.
+3. Make the important work visible where the team coordinates.
+4. Preserve useful outcomes as shared knowledge for the next person or agent.
+
+## When to choose Vokal
+
+Choose Vokal if your team already uses coding agents, but the work still gets
+lost across private prompts, terminals, Slack threads, docs, and follow-up
+messages.
+
+Choose Vokal if founders, PMs, engineering managers, and developers all need to
+see and steer the same agent work without asking one person to relay everything
+by hand.
+
+Choose Vokal if you want agents to be teammates with roles, permissions,
+routines, logs, memory, and shared organization knowledge.
+
+Use a standalone coding runtime when one developer needs a private local agent
+session.
+
+Use a chat bot when the team mainly needs Q&A, summaries, or simple thread
+responses.
+
+Use Vokal when the coding task needs to become team state.
+
+## The positioning in one sentence
+
+Vokal is the AI-native workspace for teams that use coding agents: local
+execution where developers trust it, shared coordination where the team needs
+it.
