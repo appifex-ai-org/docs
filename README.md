@@ -16,9 +16,10 @@ Preview locally from the repository root:
 mint dev
 ```
 
-Check links before publishing:
+Validate the site and check links before publishing:
 
 ```bash
+mint validate
 mint broken-links
 ```
 

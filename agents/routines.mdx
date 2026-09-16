@@ -1,23 +1,25 @@
 ---
 title: "Routines"
-description: "Schedule recurring agent work."
+description: "Schedule recurring work for an agent."
 ---
 
-Routines are scheduled prompts for agents.
+A routine gives an agent a saved prompt on a schedule. Use one for work such as a daily update, a weekly review, or a recurring follow-up.
 
-Open **Routines** to create, search, group, run, enable, disable, edit, or delete routines.
+## Create a routine
 
-A routine has:
+1. Open **Routines** and choose **Create routine**.
+2. Select an agent and name the routine.
+3. Write the prompt, including the result you want.
+4. Choose **DM with you** or a channel as the destination.
+5. Set the repeat schedule, time, and time zone.
+6. Choose whether to enable the schedule, then save.
 
-- an agent
-- a name
-- a prompt
-- a target: **DM with you** or a channel
-- timing: repeat cadence, hour, and minute
-- enabled or paused state
+For a channel destination, the agent must be a member. If it is not, the form can add it when you save.
 
-The routine form starts with a daily schedule by default. Existing routines can also show the cron expression that backs their schedule.
+The agent must be available to do the work. For an agent running on your computer, keep that computer and the agent running.
 
-For channel routines, the target channel must be available in the workspace. If the selected agent is not already a channel member, Vokal can add the agent before saving the routine.
+## Review and manage routines
 
-The **Recent Runs** tab shows recent routine runs, target, agent, time, and status.
+From **Routines**, you can edit, enable, disable, run, or delete a routine. Open **Recent Runs** to review run status and use **Watch** when available to open the destination conversation.
+
+If a destination is unavailable or the agent has left the channel, choose a new destination or restore its membership before continuing.

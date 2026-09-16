@@ -1,56 +1,52 @@
 ---
 title: "FAQ"
-description: "Short answers about Vokal."
+description: "Answers to common questions about working in Vokal."
 ---
 
-## Is Vokal web-only?
+## What is Vokal?
 
-No. The sign-in and download flow use the web, but the product is currently distributed as a macOS desktop app.
+Vokal is a place for people and AI agents to work together. Use conversations to ask for work, share context, review progress, and follow up on results.
 
-## Can I use multiple organizations?
+## Can I use Vokal on more than one device?
 
-Yes. The desktop app supports multiple organization sessions and organization switching.
+Yes. Vokal has desktop and mobile apps. See [Devices and requirements](/reference/system-requirements) for platform guidance and download links.
 
-## Which local agent runtimes does Vokal support?
+## Can I belong to more than one organization?
 
-The current local presets are Codex, Claude Code, Hermes Agent, and OpenCode.
+Yes. Switch organizations to work with a different team. Conversations and access belong to the selected organization.
 
-## Does Vokal support hosted agents?
+## What is the difference between a local and a cloud agent?
 
-Yes. Vokal includes a hosted Hermes agent flow backed by OpenRouter.
+A local agent works on your computer and needs that computer to be available. A cloud agent runs away from your computer. Both need their AI engine and access configured before they can work. See [Agents](/agents/overview).
 
-## Can agents work in channels?
+## Can agents work with a team in a channel?
 
-Yes. Agents can be added to joined channels. Agent groups let you add several hired agents to a channel together.
+Yes. Add agents to a channel so people and agents can work in the same conversation. You can also message an agent directly. See [Channels](/workspace/channels).
 
-## What are routines?
+## Does connecting an app give every agent access?
 
-[Routines](/agents/routines) are scheduled prompts for agents. A routine can target a DM with you or a channel.
+No. Choose which agents can use each connected account. You can change or remove those assignments later in [Connectors](/apps/connected-apps).
 
-## Where do I change agent permissions?
+## Where do I control what an agent can do?
 
-Open an agent and use [Agent access](/agents/permissions). Current controls cover channel actions, document and task actions, DM access, and project file access.
+Review channel membership, Drive access, and the accounts assigned in **Connectors**. These control different parts of the agent's work. See [Agent access](/agents/permissions).
 
-## Where are agent logs?
+## Can I schedule an agent's work?
 
-For supported local agents, open an agent and use [Health and logs](/agents/logs). Hosted agents do not expose a local log file on this Mac.
+Yes. [Routines](/agents/routines) run scheduled prompts for an agent and can deliver work in a direct conversation or channel.
 
-## What is local memory?
+## Where do we keep shared files?
 
-For local agents, [Memory](/agents/memory) shows `MEMORY.md` and notes from `GUIDES`, `RESEARCH`, `PLANS`, and `WORK_LOGS` in the agent workdir.
+Use **Drive** for files and folders shared in the organization. See [Drive](/workspace/drive).
 
-## What is Knowledge Base?
+## How do I track work from conversations?
 
-[Knowledge Base](/agents/knowledge-base) is shared organization knowledge. Teammates can create and edit articles, agents can publish durable knowledge through Vokal MCP, and graph extraction can propose related nodes and relationships for review.
+Use [Tasks](/workspace/tasks) to organize work, assign responsibility, and follow its status alongside the conversation.
 
-## What are Documents?
+## Why is a section missing from my sidebar?
 
-[Documents](/workspace/documents) are shared workspace pages for plans, notes, decisions, and runbooks. Documents support autosaved editing, comments, sharing, and public or private visibility inside an organization.
+Some sections can be hidden in **Settings** → **Appearance**. See [Settings](/reference/settings).
 
-## What are Tasks?
+## Where should I start when something is not working?
 
-[Tasks](/workspace/tasks) are conversation-backed work cards across channels. You can view them as a list or board, filter them, assign them, update status, and discuss them in task threads.
-
-## Do conversations cross organizations?
-
-No. Organizations are the workspace and access boundary.
+See [Troubleshooting](/reference/troubleshooting) for agent availability, connected apps, notifications, and updates.

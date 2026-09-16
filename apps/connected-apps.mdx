@@ -1,14 +1,36 @@
 ---
-title: "Connected apps"
-description: "External app connections for Vokal agents."
+title: "Connectors"
+description: "Connect an app account and choose which agents can use it."
 ---
 
-The Apps page connects external tools to Vokal and controls which agents can use each connected account.
+Use **Connectors** to give agents access to the apps you use for work. Connecting an account and granting agent access are separate steps.
 
-When you connect an app, Vokal opens the browser for sign-in.
+## Connect an account
 
-The current app catalog includes GitHub, Gmail, Excel, Google Calendar, Google Docs, Google Drive, Google Sheets, Linear, Microsoft Teams, Notion, OneDrive, Outlook, SharePoint, and Slack.
+1. Open **Connectors** in the sidebar and select **Connect a connector**.
+2. Choose **Personal** for an account used by your local or personal cloud agents. Choose **Workspace** for an organization connection that can also be assigned to shared cloud agents.
+3. Search for an app and select it. Follow the sign-in or setup steps shown for that app.
+4. Review the access requested by the app before approving it.
+5. Choose which agents should use the account. Depending on the app, finish with **Assign agents now** → **Done**, or use **Agent access**, choose permissions, and select **Save agent access**.
 
-Connected accounts show status, granted permissions, assigned agents, and management actions. Use **Assign agents** to grant or revoke agent access to a connected account. Use **Manage** for account details, permissions, labels, and disconnect actions.
+You can leave an account unassigned and grant access later. Search the catalog in Vokal to see which apps are available for your connection type.
 
-Some write tools create drafts or approval requests first. Draft tools do not send, publish, update, or mutate external systems by themselves.
+## Choose who can use an account
+
+Open the connected account's management panel. Use **Agents using this account** or **Agent access** to review assignments. Some connectors let you check or uncheck agents directly; others require choosing permissions and selecting **Save agent access**. Follow the confirmation shown.
+
+A connected account does not give every agent access. An agent also needs the permissions required for the action you ask it to perform. See [Agent access](/agents/permissions).
+
+If you connect more than one account for an app, check the account assigned to the agent before asking it to work. Where available, use **Edit label & purpose** to make accounts easier to distinguish.
+
+## Reconnect or remove an account
+
+If an account shows **Authorization expired**, choose **Reconnect** and complete sign-in again. Agents cannot use the expired connection until it is restored.
+
+Choose **Disconnect account** to remove the connection. All agents using that account lose access through it. You can connect it again later.
+
+## Ask an agent to use the connection
+
+After assigning an account, open a conversation with the agent and describe the result you want. For example, ask it to find an upcoming meeting or summarize a document you can access.
+
+Review any access or approval request in the conversation before continuing. The actions available depend on the app, the connected account, and the agent's permissions.
