@@ -17,43 +17,45 @@
             "group": "Getting started",
             "pages": [
               "index",
-              "quickstart"
+              "quickstart",
+              "organizations"
             ]
           },
           {
-            "group": "Workspace",
+            "group": "Working together",
             "pages": [
-              "organizations",
               "workspace/channels",
-              "workspace/documents",
-              "workspace/tasks"
+              "workspace/huddles",
+              "workspace/drive",
+              "workspace/tasks",
+              "workspace/activity"
             ]
           },
           {
             "group": "Agents",
             "pages": [
               "agents/overview",
-              "agents/hire-from-roles",
-              "agents/agent-groups",
-              "agents/routines",
+              "agents/create-an-agent",
+              "agents/ai-engines",
               "agents/permissions",
-              "agents/logs",
+              "agents/routines",
               "agents/memory",
-              "agents/knowledge-base",
-              "agents/local-runtimes"
+              "agents/logs"
             ]
           },
           {
-            "group": "Apps",
+            "group": "Connected apps",
             "pages": [
               "apps/connected-apps"
             ]
           },
           {
-            "group": "Reference",
+            "group": "Help and preferences",
             "pages": [
+              "reference/settings",
               "reference/system-requirements",
-              "reference/faq"
+              "reference/faq",
+              "reference/troubleshooting"
             ]
           }
         ]
@@ -68,8 +70,8 @@
     "links": [],
     "primary": {
       "type": "button",
-      "label": "Download macOS",
-      "href": "https://vokal.team/download/macos"
+      "label": "Download Vokal",
+      "href": "https://vokal.team/download"
     }
   },
   "contextual": {
@@ -86,5 +88,27 @@
   },
   "footer": {
     "socials": {}
-  }
+  },
+  "redirects": [
+    {
+      "source": "/workspace/documents",
+      "destination": "/workspace/drive"
+    },
+    {
+      "source": "/agents/hire-from-roles",
+      "destination": "/agents/create-an-agent"
+    },
+    {
+      "source": "/agents/local-runtimes",
+      "destination": "/agents/ai-engines"
+    },
+    {
+      "source": "/agents/agent-groups",
+      "destination": "/workspace/channels"
+    },
+    {
+      "source": "/agents/knowledge-base",
+      "destination": "/workspace/drive"
+    }
+  ]
 }

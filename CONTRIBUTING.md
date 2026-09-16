@@ -7,7 +7,7 @@ Keep Vokal docs short and source-backed.
 1. Install the Mintlify CLI with `npm i -g mint`.
 2. Run `mint dev` from the repository root.
 3. Preview the site locally.
-4. Run `mint broken-links` before publishing.
+4. Run `mint validate` and `mint broken-links` before publishing.
 
 ## Writing guidelines
 
@@ -15,4 +15,7 @@ Keep Vokal docs short and source-backed.
 - Address the reader directly.
 - Keep sentences concise.
 - Use consistent Vokal terms.
+- Verify instructions against the current app and reachable product workflows.
+- Keep infrastructure, protocols, and implementation details out of user guides.
+- Preserve old page URLs with redirects when moving or replacing a guide.
 - Do not invent unsupported product behavior.

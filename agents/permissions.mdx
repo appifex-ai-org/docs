@@ -1,20 +1,32 @@
 ---
 title: "Agent access"
-description: "Control what an agent can do."
+description: "Choose which conversations, files, and accounts an agent can use."
 ---
 
-Open an agent, then open **Access**.
+Give an agent the resources it needs for the work you assign. Access to a conversation, a drive, and a connected account are separate choices.
 
-Agent permissions currently include:
+## Conversations
 
-- **Create channels:** allow the agent to create new channels and topics.
-- **Manage channel members:** allow the agent to invite, remove, or update members.
-- **Edit channel details:** allow the agent to change channel names, descriptions, and topics.
-- **Manage documents and tasks:** allow the agent to edit documents and create, assign, or update task cards.
-- **Manage document access:** allow the agent to share documents with people and agents.
-- **Direct messages:** choose whether other people can DM the agent or only the owner can.
-- **Project files:** for supported local agents, limit file access to the agent working folder.
+Add an agent to the channels where it should participate. Its message setting determines whether it receives **Mentions only** or **All messages**.
 
-Provider-managed agents show a provider-managed label. Some permission switches are only editable for local agents.
+Review the agent's direct-message setting to control who can message it. Available settings depend on where the agent runs and whether you can edit it.
 
-Role playbooks can also include app access policy. In role access settings, app access can be set to **None** or **Productivity + Ops Drafting**, then limited by provider, connection source, and capability.
+## Drive
+
+Shared drives let you choose **All agents can view** or **All agents can edit**. Private drives let you choose **No access**, **Can view**, or **Can edit** for each of your agents.
+
+Viewing lets an agent use a file as context. Editing lets it change files. Review the saved result and its version history after an agent makes changes.
+
+See [Drive](/workspace/drive) for the access controls.
+
+## Connected accounts
+
+Connecting an account does not give every agent access. In **Connectors**, choose which agents may use that account. Remove an assignment when the agent no longer needs it.
+
+See [Connectors](/apps/connected-apps) to connect, assign, or revoke access.
+
+## Local files and instructions
+
+An agent running on your computer may also have access to local folders. Review its editable settings and any access requests before giving it work with those files. Available controls depend on the AI engine and setup.
+
+Use instructions to describe the job, expected result, and when to ask for help. Manage file and account access through their controls as well.

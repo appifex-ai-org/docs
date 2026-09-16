@@ -1,18 +1,19 @@
 ---
-title: "Health and logs"
-description: "Inspect local agent runtime output."
+title: "Activity and troubleshooting"
+description: "Follow an agent's work and check when it needs attention."
 ---
 
-Logs are available for local managed agents that expose runtime files.
+Open an agent's **Activity** tab to review its work. Read the conversation for results, questions, and follow-up messages.
 
-Open an agent, then open **Health**. Vokal shows runtime state, process details, copyable local inspection commands, the local log path, and recent log output.
+## When an agent does not respond
 
-From Health, you can:
+- Check the agent's status and whether it is running.
+- For a local agent, check that its computer is awake and available.
+- In a channel, check that the agent is a member and mention it directly.
+- Review its AI account connection and access to any apps or files needed for the task.
 
-- copy the log
-- copy the path
-- search within the log
-- toggle line wrapping
-- copy commands for process, working-directory, child-process, and live-log inspection
+## Check the agent's setup
 
-Hosted agents and registry-only entries do not expose a local log file on this Mac.
+Open **Runtime** for status, setup, and recovery information. Follow any sign-in, update, or restart guidance shown there.
+
+For supported local agents, the runtime view includes logs for troubleshooting. Logs from another computer are not available in this local view.
